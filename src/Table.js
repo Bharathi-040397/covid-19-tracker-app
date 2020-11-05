@@ -42,17 +42,17 @@ function Table({ countries ,countryCode}) {
   </tr>
   <tr>
     <td>Today Cases</td>
-    <td>{numeral(countries.todaycases).format("0,0")}</td>
+    <td>{numeral(countries.todayCases).format("0,0")}</td>
     
   </tr>
   <tr>
     <td>Today Recovered</td>
-    <td>{numeral(countries.todayrecovered).format("0,0")}</td>
+    <td>{numeral(countries.todayRecovered).format("0,0")}</td>
     
   </tr>
   <tr>
     <td>Today Deaths</td>
-    <td>{numeral(countries.todaydeaths).format("0,0")}</td>
+    <td>{numeral(countries.todayDeaths).format("0,0")}</td>
     
   </tr>
 
