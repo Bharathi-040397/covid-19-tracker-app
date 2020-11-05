@@ -1,0 +1,80 @@
+.map1
+{
+    height: 500px;
+    margin-top: 16px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0,0.5);
+}
+.map1 .leaflet-container
+{
+    height: 100%;
+}
+.info_container
+{
+    width:100px;
+}
+.info_flag
+{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
+.info_flag img{
+    width: 90px;
+    border-radius: 5px;
+}
+.info_name
+{
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(43, 38, 38);
+}
+.info-confirmed,.info-recovered,.info-deaths {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+@media (max-width:999px)  {
+    .info_container
+    {
+        width:80px;
+    }
+    .info_flag img{
+        width: 70px;
+        border-radius: 5px;
+    }
+    .info-confirmed,.info-recovered,.info-deaths {
+        font-size: 12px;
+        margin-top: 3px;
+      }
+      .info_name
+{
+    font-weight: bold;
+    font-size: 16px;
+    color:rgb(43, 38, 38);
+}
+}
+
+@media (max-width:60px)
+{
+    .info_container
+    {
+        width:60px;
+    }
+    .info_flag img{
+        width:50px;
+        border-radius: 5px;
+    }
+    .info-confirmed,.info-recovered,.info-deaths {
+        font-size: 8px;
+        margin-top: 3px;
+      }
+      .info_name
+{
+    font-weight: bold;
+    font-size: 12px;
+    color:rgb(43, 38, 38);
+}
+}

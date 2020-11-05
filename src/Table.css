@@ -1,0 +1,45 @@
+.table
+{
+    margin-top: 20px;
+    overflow-y: overlay;
+    height: 350px;
+    color: #6a5d5d;
+
+}
+.table::-webkit-scrollbar{
+    display: none;
+}
+.table tr:nth-of-type(odd)
+{
+    background-color: #f3f2f8;
+}
+.table tr td{
+ padding: 0.5rem;
+}
+.table tr{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.subTable
+{
+    margin-top: 20px;
+     height: auto;
+    color: #6a5d5d;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.subTable tr:nth-of-type(odd)
+{
+    background-color: #f3f2f8;
+}
+.subTable tr td{
+ padding: 0.5rem;
+}
+table tr{
+    display: flex;
+    justify-content: space-between;
+    
+}
